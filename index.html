@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./access/css/style.css">
+    <link rel="stylesheet" href="./access/css/responsive.css">
+    <title>instarbio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <input type="checkbox" id="light-dark" class="switch-toggle">
+    </div>
+
+    <div id="container">
+        <div id="profile-header">
+            <div class="header-avatar">
+                <img src="https://haycafe.vn/wp-content/uploads/2022/02/Anh-gai-xinh-Viet-Nam.jpg" alt>
+            </div>
+
+           <div class="header-text">
+                <h1 class="header-name">Chuuu ở đâyy nèkk🐰</h1>
+                <span class="header-desc">Đồ xink ở đây nha bbi ơi 💜</span>
+           </div>
+        </div>
+
+        <div id="content-list">
+            <div class="btn-link">
+                <button class="btn" onclick="location.href='https://www.facebook.com/ngocquyen.nguyenthi.775823'">
+                    <img data-src="https://bio.linkcdn.to/bio/links/icons/social/facebook.png" src="https://bio.linkcdn.to/bio/links/icons/social/facebook.png" alt="Facebook" class="icon" data-loaded="true">
+                    <p>Facebook</p> 
+                </button>
+                <button class="btn" onclick="location.href='https://www.Huyenn.004'">
+                    <img data-src="https://bio.linkcdn.to/bio/links/icons/social/instagram.png" src="https://bio.linkcdn.to/bio/links/icons/social/instagram.png" alt="Instagram" class="icon " data-loaded="true">
+                    <p>Instagram</p>
+                </button>
+                <button class="btn" onclick="location.href='https://twitter.com/'">
+                    <img data-src="https://bio.linkcdn.to/bio/links/icons/social/twitter.png" src="https://bio.linkcdn.to/bio/links/icons/social/twitter.png" alt="Twitter" class="icon " data-loaded="true">
+                    <p>Twitter</p>
+                </button>
+                <button class="btn" onclick="location.href='https://www.youtube.com/'">
+                    <img data-src="https://bio.linkcdn.to/bio/links/icons/social/youtube.png" src="https://bio.linkcdn.to/bio/links/icons/social/youtube.png" alt="Youtube" class="icon " data-loaded="true">
+                    <p>Youtube</p>
+                </button>
+                <button class="btn" onclick="location.href='https://api.whatsapp.com/'">
+                    <img data-src="https://bio.linkcdn.to/bio/links/icons/social/whatsapp.png" src="https://bio.linkcdn.to/bio/links/icons/social/whatsapp.png" alt="WhatsApp" class="icon " data-loaded="true">
+                    <p>WhatsApp</p>
+                </button>
+            </div>
+
+            <div class="social-link">
+                <div class="social">
+                    <img data-src="https://bio.linkcdn.to/bio/links/icons/social/instagram.png" src="https://bio.linkcdn.to/bio/links/icons/social/instagram.png" alt="Instagram" class="icon1" data-loaded="true">
+                    <img data-src="https://bio.linkcdn.to/bio/links/icons/social/facebook.png" src="https://bio.linkcdn.to/bio/links/icons/social/facebook.png" alt="Facebook" class="icon1" data-loaded="true">
+                    <img data-src="https://bio.linkcdn.to/bio/links/icons/social/twitter.png" src="https://bio.linkcdn.to/bio/links/icons/social/twitter.png" alt="Twitter" class="icon1 " data-loaded="true">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const toswitch = document.getElementById("light-dark");
+        toswitch.addEventListener("click", function ()
+        {
+            document.body.classList.toggle("change");
+        })
+    </script>
+
+
+</body>
+</html>

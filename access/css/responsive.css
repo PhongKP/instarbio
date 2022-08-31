@@ -1,0 +1,16 @@
+/* PC */
+@media (min-width: 1024px)
+{
+
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px)
+{
+    html {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

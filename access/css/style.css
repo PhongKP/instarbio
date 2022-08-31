@@ -1,0 +1,172 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --primary-color: #222222;
+}
+
+body
+{
+    background: linear-gradient(#ee9ca7,#ffdde1);
+}
+
+body.change
+{
+    background: linear-gradient(#fc5c7d,#6a82fb);
+}
+
+#container
+{   
+    width: 720px;
+    height: 770px;
+    margin: 0 auto;
+}
+
+#container #profile-header .header-avatar
+{
+    width: 100px;
+    height: 100px;
+    margin: 22px auto;
+    border-radius: 50%;
+}
+
+#container #profile-header .header-avatar img
+{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#profile-header .header-text
+{
+    text-align: center;
+}
+
+#profile-header .header-text .header-name
+{
+    margin: 12px 0 6px;
+    font-size: 20px;
+    word-break: break-word;
+    color: var(--primary-color);
+}
+
+#profile-header .header-text .header-desc
+{
+    font-size: 16px;
+    word-break: break-word;
+    line-height: 20px;
+    color: var(--primary-color);
+    white-space: pre-wrap;
+    min-height: 20px;
+    margin-bottom: 12px;
+}
+
+#content-list
+{
+    width: 100%;
+    height: 528px;
+    margin-top: 12px;
+}
+
+#content-list .btn-link
+{
+    width: 100%;
+    height: 426px;
+}
+
+#content-list .btn-link .btn
+{
+    width: 100%;
+    height: 48px;
+    margin: 20px 0;
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+#content-list .btn-link .btn .icon
+{
+    width: 36px;
+    height: 36px;
+    background-size: cover;
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    line-height: 16px;
+    border-radius: 50%;
+}
+
+#content-list .btn-link .btn p
+{
+    line-height: 48px;
+    font-size: 20px;
+}
+
+#content-list .social-link
+{
+    width: 100%;
+    height: 52px;
+    margin-top: 20px;
+}
+
+#content-list .social-link .social
+{
+    display: flex;
+    justify-content: center;
+}
+
+#content-list .social-link .icon1
+{
+    width: 32px;
+    height: 32px;
+    margin-right: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.wrapper
+{
+    position: absolute;
+    top: 17px;
+    right: 29px;
+}
+
+.switch-toggle
+{
+    width: 90px;
+    height: 50px;
+    appearance: none;
+    background: #87CEFA;
+    border-radius: 27px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.switch-toggle::before
+{
+    content: " ";
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: yellow;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+    transition: 0.25s ease;
+}
+
+.switch-toggle:checked::before
+{
+    left: 40px;
+}
